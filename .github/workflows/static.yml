@@ -2,8 +2,9 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes
-  push:
+  push
+# Runs on pushes
+#  push:
 #    branches: ["gh-pages"]
 
   # Allows you to run this workflow manually from the Actions tab
